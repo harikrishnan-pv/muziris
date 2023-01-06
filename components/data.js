@@ -1,59 +1,33 @@
-import {
-  EmojiHappyIcon,
-  ChartSquareBarIcon,
-  CursorClickIcon,
-  DeviceMobileIcon,
-  AdjustmentsIcon,
-  SunIcon,
-} from "@heroicons/react/outline";
 
 import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
+import benefit3Img from "../public/img/benefit-3.png";
+import benefit4Img from "../public/img/benefit-4.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "IT and Application Security",
+  desc: "Welcome to IT & Application Security Modernization services offered by XYZ IT Services. We are a start-up IT services company that specializes in providing comprehensive security solutions for businesses of all sizes. Our team of experienced professionals is dedicated to helping you protect your data and applications from malicious attacks and unauthorized access. We understand that the security of your IT infrastructure is of the utmost importance. That’s why we offer a range of services to help you modernize your IT and application security",
   image: benefitOneImg,
-  bullets: [
-    {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <EmojiHappyIcon />,
-    },
-    {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartSquareBarIcon />,
-    },
-    {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorClickIcon />,
-    },
-  ],
+  
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Marketing & Experience Modernization",
+  desc: "Welcome to our IT Services start-up, where we specialize in modernizing your marketing and experience. Our team of experts is dedicated to helping you create a modern, efficient, and effective marketing and experience strategy. We understand that in today’s digital world, it’s essential to stay ahead of the competition. That’s why we offer a range of services to help you modernize your marketing and experience. From website design and development to content marketing and social IT infrastructure modernization is the process of updating and replacing outdated IT systems and hardware with more modern, efficient, and secure solutions. It is a critical part of any organization’s digital transformation journey, as it helps to ensure that the organization’s IT infrastructure is up-to-date and able to support the organization’s current and future needs. Modernizing IT infrastructure can help organizations to reduce costs, improve efficiency, and increase security. ",
   image: benefitTwoImg,
-  bullets: [
-    {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DeviceMobileIcon />,
-    },
-    {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsIcon />,
-    },
-    {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
-    },
-  ],
+  
+};
+const benefitThree = {
+  title: "Data Modernization",
+  desc: "Are you looking for a way to modernize your data? Are you struggling to keep up with the ever-changing technology landscape? Look no further than our data modernization services. We can help you to update your data management system so that you can take advantage of the latest technology and trends. Our data modernization services can help you to: - Update your data management system - Take advantage of the latest technology - Benefit from improved performance and efficiency Our team of experts will work with you to create a customized data modernization plan that meets your specific needs and requirements. We understand that every business is different ",
+  image: benefit3Img,
+  
+};
+const benefitFour = {
+  title: "IT Infrastructure modernization",
+  desc: "Is your business ready for the future? If you're like most businesses, you're relying on outdated technology infrastructure that's no longer able to meet your needs. You need a solution that can scale with your business as it grows, but upgrading your infrastructure can be expensive and time-consuming. Are you looking for a way to modernize your business applications? If so, you’ve come to the right place. At [company name], we offer a wide range of modernization services that can help you update your applications and make them more efficient and effective. Our modernization services include:",
+  image: benefit4Img,
+  
 };
 
-export { benefitOne, benefitTwo };
+export { benefitOne, benefitTwo, benefitFour,benefitThree };
